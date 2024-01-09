@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128C97D7A138D08790C6F75B /* Pods_okhomeapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1F7F5A91438C37F877BD4D /* Pods_okhomeapp.framework */; };
 		A0C5BBF22B4CE07800431BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BBF12B4CE07800431BB8 /* AppDelegate.swift */; };
 		A0C5BBF42B4CE07800431BB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BBF32B4CE07800431BB8 /* SceneDelegate.swift */; };
 		A0C5BBF62B4CE07800431BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BBF52B4CE07800431BB8 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F3C10684A55FB2F95B6BC58 /* Pods-okhomeapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-okhomeapp.debug.xcconfig"; path = "Target Support Files/Pods-okhomeapp/Pods-okhomeapp.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF248F1717CDF8401D86EEB /* Pods-okhomeapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-okhomeapp.release.xcconfig"; path = "Target Support Files/Pods-okhomeapp/Pods-okhomeapp.release.xcconfig"; sourceTree = "<group>"; };
 		A0C5BBEE2B4CE07800431BB8 /* okhomeapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okhomeapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C5BBF12B4CE07800431BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C5BBF32B4CE07800431BB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		A0C5BBFA2B4CE07900431BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C5BBFD2B4CE07900431BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0C5BBFF2B4CE07900431BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1F7F5A91438C37F877BD4D /* Pods_okhomeapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_okhomeapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128C97D7A138D08790C6F75B /* Pods_okhomeapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44F96995360176345C4BDE0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1F7F5A91438C37F877BD4D /* Pods_okhomeapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0C5BBE52B4CE07800431BB8 = {
 			isa = PBXGroup;
 			children = (
 				A0C5BBF02B4CE07800431BB8 /* okhomeapp */,
 				A0C5BBEF2B4CE07800431BB8 /* Products */,
+				FA882953F92C00E8E4B43B02 /* Pods */,
+				44F96995360176345C4BDE0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = okhomeapp;
 			sourceTree = "<group>";
 		};
+		FA882953F92C00E8E4B43B02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F3C10684A55FB2F95B6BC58 /* Pods-okhomeapp.debug.xcconfig */,
+				7AF248F1717CDF8401D86EEB /* Pods-okhomeapp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C5BC022B4CE07900431BB8 /* Build configuration list for PBXNativeTarget "okhomeapp" */;
 			buildPhases = (
+				53E0C50C5B33C75FDB9FD98B /* [CP] Check Pods Manifest.lock */,
 				A0C5BBEA2B4CE07800431BB8 /* Sources */,
 				A0C5BBEB2B4CE07800431BB8 /* Frameworks */,
 				A0C5BBEC2B4CE07800431BB8 /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53E0C50C5B33C75FDB9FD98B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-okhomeapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0C5BBEA2B4CE07800431BB8 /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		A0C5BC032B4CE07900431BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3C10684A55FB2F95B6BC58 /* Pods-okhomeapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +362,7 @@
 		};
 		A0C5BC042B4CE07900431BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF248F1717CDF8401D86EEB /* Pods-okhomeapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
