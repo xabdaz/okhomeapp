@@ -88,7 +88,6 @@
 				6F3C10684A55FB2F95B6BC58 /* Pods-okhomeapp.debug.xcconfig */,
 				7AF248F1717CDF8401D86EEB /* Pods-okhomeapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -351,7 +350,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.31.25;
 				PRODUCT_BUNDLE_IDENTIFIER = id.co.okhome.okhomeapp.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -380,7 +379,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.31.25;
 				PRODUCT_BUNDLE_IDENTIFIER = id.co.okhome.okhomeapp.staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
